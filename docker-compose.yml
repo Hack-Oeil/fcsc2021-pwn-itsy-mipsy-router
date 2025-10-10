@@ -2,7 +2,7 @@ services:
   itsy-mipsy-router:
     image: anssi/fcsc2021-pwn-itsy-mipsy-router-router:latest
     ports:
-      - "4000:4000"
+      - ${PORT_SSH}:4000
     networks:
       - itsy-mipsy-router-external
       - itsy-mipsy-router-internal
@@ -11,7 +11,7 @@ services:
     image: anssi/fcsc2021-pwn-itsy-mipsy-router-filer:latest
     hostname: filer
     ports:
-      - "80:80"
+      - ${PORT}:80
     networks:
       - itsy-mipsy-router-internal
 
