@@ -3,7 +3,7 @@
 On vous demander d'auditer un routeur à l'interface entre Internet et un réseau interne d'une entreprise. Le client vous demande si il est possible de lire les fichiers stockés sur la machine filer qui sert de serveur de fichiers HTTP. Un Dockerfile minimaliste est fourni pour aider l'analyse.
 
 
-Auteur : [Cryptanalyse](https://twitter.com/Cryptanalyse)
+Auteur : [Cryptanalyse](https://x.com/Cryptanalyse)
 
 Origine : [Itsy Mipsy Router](https://hackropole.fr/fr/challenges/pwn/fcsc2021-pwn-itsy-mipsy-router/)
 
